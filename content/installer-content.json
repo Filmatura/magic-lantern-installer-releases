@@ -1,0 +1,185 @@
+{
+  "version": 4,
+  "promo": {
+    "id": "bf26",
+    "startsAt": "2026-11-27T15:32:00Z",
+    "endsAt": "2026-12-04T22:59:59Z",
+    "utmCampaign": "bf26",
+    "announcements": [
+      {
+        "text": "Black Friday: **Free RhynoGrips** with every M-Lite REVO",
+        "path": "/products/m-lite-revo",
+        "until": "2026-12-03T22:59:59Z"
+      },
+      {
+        "text": "Black Friday: **Free SideWinder** with every Rogue",
+        "path": "/products/rogue-mk2",
+        "until": "2026-12-03T22:59:59Z"
+      },
+      {
+        "text": "**LAST CHANCE:** Black Friday deals end in less than 24 hours",
+        "path": "/products/m-lite-revo",
+        "from": "2026-12-03T22:59:59Z"
+      }
+    ],
+    "headline": "Black Friday at Filmatura",
+    "headlineAccent": "Black Friday",
+    "subline": "Until December 4. Deals apply automatically at checkout.",
+    "products": {
+      "rogue-sidewinder": {
+        "badges": [
+          {
+            "text": "Black Friday: free with Rogue",
+            "tone": "info"
+          }
+        ],
+        "price": "Free with a Rogue",
+        "compareAt": "$14.99 USD"
+      },
+      "rhynogrips-cnc": {
+        "badges": [
+          {
+            "text": "Black Friday: $20 off with a REVO",
+            "tone": "info"
+          },
+          {
+            "text": "Save 26%",
+            "tone": "sale"
+          }
+        ]
+      }
+    }
+  },
+  "shop": [
+    {
+      "id": "eos-m",
+      "heading": "Rogue Cage Mark III",
+      "description": "Lightweight, rugged, pro. The complete rig for your EOS M - cage, grips and mounts.",
+      "collectionPath": "/collections/eos-m",
+      "collectionLabel": "Shop EOS M gear",
+      "products": [
+        {
+          "handle": "rogue-mk2",
+          "title": "Rogue Cage Mark III for EOS-M & EOS-M2",
+          "image": "https://cdn.shopify.com/s/files/1/0780/3233/9274/files/Rogue-MK3-Black-323.png?width=800",
+          "hoverImage": "https://cdn.shopify.com/s/files/1/0780/3233/9274/files/Rogue-MK3-Black-322.png?width=800",
+          "price": "From $129.95 USD",
+          "compareAt": "$159.99 USD",
+          "badges": [
+            {
+              "text": "Save 19%",
+              "tone": "sale"
+            }
+          ],
+          "wide": true
+        },
+        {
+          "handle": "rogue-sidewinder",
+          "title": "Rogue SideWinder Grip",
+          "image": "https://cdn.shopify.com/s/files/1/0780/3233/9274/files/SideWinder.306.png?width=800",
+          "hoverImage": "https://cdn.shopify.com/s/files/1/0780/3233/9274/files/SideWinder.307.png?width=800",
+          "price": "$14.99 USD"
+        },
+        {
+          "handle": "rogue-keyshoe",
+          "title": "Rogue KeyShoe",
+          "image": "https://cdn.shopify.com/s/files/1/0780/3233/9274/files/Rogue.296.png?width=800",
+          "hoverImage": "https://cdn.shopify.com/s/files/1/0780/3233/9274/files/Rogue.200.png?width=800",
+          "price": "From $9.99 USD",
+          "compareAt": "$14.99 USD",
+          "badges": [
+            {
+              "text": "Launch price",
+              "tone": "info"
+            },
+            {
+              "text": "Save 33%",
+              "tone": "sale"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m-lite",
+      "heading": "M-Lite REVO",
+      "description": "Build your own 14-bit RAW cinema camera - from scratch, for under $450.",
+      "collectionPath": "/collections/m-lite",
+      "collectionLabel": "Shop REVO accessories",
+      "products": [
+        {
+          "handle": "m-lite-revo",
+          "title": "M-Lite REVO",
+          "image": "https://cdn.shopify.com/s/files/1/0780/3233/9274/files/ml-installer-revo.webp",
+          "hoverImage": "https://cdn.shopify.com/s/files/1/0780/3233/9274/files/ml-installer-revo-hover.webp",
+          "price": "$299.95 USD",
+          "wide": true
+        },
+        {
+          "handle": "m-lite-tilt-screen",
+          "title": "M-Lite Tilt Screen",
+          "image": "https://cdn.shopify.com/s/files/1/0780/3233/9274/files/Startup.bip.332.png?width=800",
+          "price": "$69.99 USD",
+          "badges": [
+            {
+              "text": "Pre-order",
+              "tone": "info"
+            }
+          ]
+        },
+        {
+          "handle": "rhynogrips-cnc",
+          "title": "RhynoGrips Pro",
+          "image": "https://cdn.shopify.com/s/files/1/0780/3233/9274/files/RhynoGrips_CNC.Camera_1.png?width=800",
+          "hoverImage": "https://cdn.shopify.com/s/files/1/0780/3233/9274/files/RhynoGrips_CNC.Camera_2.png?width=800",
+          "price": "From $84.99 USD",
+          "compareAt": "$114.99 USD",
+          "badges": [
+            {
+              "text": "Save 26%",
+              "tone": "sale"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "builds": [
+    {
+      "id": "filmatura",
+      "label": "Filmatura's Crop Mood",
+      "description": "Filmatura's actively maintained fork of Amit's Crop Mood Slim, downloaded fresh each time. Includes small visual tweaks and customisations. Recommended for everyone.",
+      "recommended": true,
+      "moreInfoUrl": "https://github.com/Filmatura/crop-mood-filmatura",
+      "githubRepo": "Filmatura/crop-mood-filmatura"
+    },
+    {
+      "id": "amit",
+      "label": "Amit's Crop Mood Slim",
+      "description": "The original build this fork is based on, actively maintained by Amit. Downloaded fresh each time.",
+      "tagLabel": "Actively maintained",
+      "moreInfoUrl": "https://github.com/Amit199167",
+      "githubRepo": "Amit199167/Crop-mood-eosm-slim-gui"
+    },
+    {
+      "id": "filmgate",
+      "label": "Crop Mood FilmGate (Beta)",
+      "description": "shaneintherain's experimental build, based on Amit's Crop Mood Slim, with resolution presets that match real film gates (35mm, 16mm, Super 8) and 1:1 video-sensor crops. Downloaded fresh each time.",
+      "tagLabel": "Experimental",
+      "moreInfoUrl": "https://github.com/shaneintherain/Crop-mood-eosm-filmgate",
+      "githubRepo": "shaneintherain/Crop-mood-eosm-filmgate"
+    },
+    {
+      "id": "danne-tweaks",
+      "label": "Crop Mood + Danne Tweaks (24fps fix)",
+      "description": "Danne's variant of Crop Mood with a 24fps fix. Only use this if you know what you're doing.",
+      "moreInfoUrl": "https://www.magiclantern.fm/forum/index.php?topic=27084.25"
+    },
+    {
+      "id": "crop-mood",
+      "label": "Crop Mood",
+      "description": "Bilal's original Crop Mood build for the EOS M. Only use this if you know what you're doing.",
+      "moreInfoUrl": "https://www.magiclantern.fm/forum/index.php?topic=26851.0"
+    }
+  ]
+}
