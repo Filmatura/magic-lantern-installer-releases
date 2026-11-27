@@ -1,55 +1,53 @@
 # Magic Lantern Installer
 
-An installer for [Magic Lantern](https://www.magiclantern.fm/) on the Canon EOS M, by [Filmatura](https://filmatura.com). Handles the whole thing - SD card, Canon firmware if you need it, copying Magic Lantern over - with actual video demos instead of walls of text.
+The easy way to put [Magic Lantern](https://www.magiclantern.fm/) on your Canon EOS M, by [Filmatura](https://filmatura.com). Pick your SD card, and it walks you through the rest, with short videos showing what to do on the camera.
 
-<p align="center">
-  <a href="https://github.com/Filmatura/magic-lantern-installer-releases/releases/latest">
-    <img alt="Download latest release" src="https://img.shields.io/github/v/release/Filmatura/magic-lantern-installer-releases?label=Download&style=for-the-badge">
-  </a>
-</p>
-
-**[⬇ Grab the latest version here](https://github.com/Filmatura/magic-lantern-installer-releases/releases/latest)** - click through, then pick the file for your computer under "Assets."
+**Download it at [filmatura.com/pages/magic-lantern-installer](https://filmatura.com/pages/magic-lantern-installer)** (Mac and Windows, free).
 
 ## What it does
 
-- Won't let you touch a drive it's not safe to format
-- Flashes Canon firmware 2.0.2 if your camera needs it
-- Grabs the latest Magic Lantern build and loads it onto your card
-- Shows you what to do on the camera itself, with short videos showing the process
-- Quick Mode if you already know what you're doing and just want it done quick :)
+- Only lists removable, SD-card-sized drives, so your computer's own disk is never an option
+- Formats the card and, if your camera isn't on Canon firmware 2.0.2 yet, puts the update on it and shows you how to run it on the camera
+- Downloads the latest version of the build you choose and copies it to your card
+- Lets you add a custom boot logo
+- Has a Quick Mode for when you already know the drill
 
-## Getting a "can't be opened" error?
+## If it won't open the first time
 
-**Mac:** you'll probably see something like "Magic Lantern Installer can't be opened". It's not signed with a paid Apple developer certificate yet, so Gatekeeper blocks it the first time. Easy fix:
+The installer isn't signed with a paid Apple or Microsoft certificate yet, so your computer may block it on first launch.
 
-1. Find the app in Finder (don't double-click it)
-2. Right-click (or Control-click) it → **Open**
-3. Click **Open** again in the popup
+**Mac:** if macOS says the app "can't be opened" or "is damaged", move it to your Applications folder, open Terminal and run:
 
-Only need to do this once - opens normally after that.
+```
+xattr -cr "/Applications/Magic Lantern Installer.app"
+```
 
-**Windows:** you might get a blue "Windows protected your PC" screen, same reason - no paid cert yet. Hit **More info**, then **Run anyway**.
+Then open it as usual. You only need to do this once.
+
+**Windows:** on the blue "Windows protected your PC" screen, click **More info**, then **Run anyway**.
 
 ## Builds & credits
 
-This just installs pre-built Magic Lantern binaries - doesn't touch the source itself. Five builds to pick from (under "Advanced: change build"):
+The installer doesn't change Magic Lantern itself. It installs builds made by the EOS M community, and the build list in the app is updated over time. It currently includes:
 
-| Build | Source | Maintainer |
+| Build | Source | By |
 |---|---|---|
-| Filmatura's Crop Mood *(default)* | [Filmatura/crop-mood-filmatura](https://github.com/Filmatura/crop-mood-filmatura) | Filmatura, forked from Amit's build below |
+| Filmatura's Crop Mood *(default)* | [Filmatura/crop-mood-filmatura](https://github.com/Filmatura/crop-mood-filmatura) | Filmatura, forked from Amit's build |
 | Amit's Crop Mood Slim | [Amit199167/Crop-mood-eosm-slim-gui](https://github.com/Amit199167/Crop-mood-eosm-slim-gui) | [Amit Kattal](https://github.com/Amit199167) |
 | Crop Mood FilmGate (Beta) | [shaneintherain/Crop-mood-eosm-filmgate](https://github.com/shaneintherain/Crop-mood-eosm-filmgate) | [shaneintherain](https://github.com/shaneintherain), forked from Amit's build |
 | Crop Mood + Danne Tweaks | [Magic Lantern forum thread](https://www.magiclantern.fm/forum/index.php?topic=27084.25) | Danne |
 | Crop Mood | [Magic Lantern forum thread](https://www.magiclantern.fm/forum/index.php?topic=26851.0) | Bilal |
 
-Massive thanks to Bilal, Danne, Amit, and shaneintherain for building these out for the EOS M, and to the [Magic Lantern](https://www.magiclantern.fm/) team for the firmware itself - none of this could exist without their work.
+Huge thanks to Bilal, Danne, Amit and shaneintherain for building these for the EOS M, and to the [Magic Lantern](https://www.magiclantern.fm/) team for years of work on the firmware itself.
 
 ### License
 
-Magic Lantern (and every build listed here) is licensed under **[GNU GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)**. Each build's own repo/thread above is where the actual source lives. This installer is a separate, closed-source tool - it just downloads and copies those builds onto your card, it doesn't modify or redistribute modified Magic Lantern source.
+Magic Lantern and every build above are licensed under **[GNU GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)**, and each build's source is at the link in the table. Most builds are downloaded straight from their authors' GitHub releases. The Danne Tweaks and Crop Mood builds ship inside the installer, unmodified.
 
-Magic Lantern is unofficial, free/open-source software - not made or approved by Canon. Installing it may affect your warranty, and it's entirely at your own risk. This installer and Filmatura aren't affiliated with the official Magic Lantern project.
+The installer itself is a separate, closed-source program by Filmatura.
+
+Magic Lantern is unofficial software, not made or approved by Canon. Installing it may affect your warranty and is at your own risk. Filmatura isn't affiliated with the Magic Lantern project.
 
 ---
 
-This repository only hosts release downloads (and the installer's remotely editable content in [`content/`](content/)). The installer is proprietary - see [LICENSE](LICENSE). Copyright (c) 2026 Filmatura.
+This repository holds the installer's release files and update feed, plus its remotely editable content in [`content/`](content/). To get the installer, use the download page above. The installer is proprietary - see [LICENSE](LICENSE). Copyright (c) 2026 Filmatura.
