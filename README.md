@@ -32,16 +32,17 @@ Only need to do this once - opens normally after that.
 
 ## Builds & credits
 
-This just installs pre-built Magic Lantern binaries - doesn't touch the source itself. Four builds to pick from (under "Advanced: change build"):
+This just installs pre-built Magic Lantern binaries - doesn't touch the source itself. Five builds to pick from (under "Advanced: change build"):
 
 | Build | Source | Maintainer |
 |---|---|---|
 | Filmatura's Crop Mood *(default)* | [Filmatura/crop-mood-filmatura](https://github.com/Filmatura/crop-mood-filmatura) | Filmatura, forked from Amit's build below |
 | Amit's Crop Mood Slim | [Amit199167/Crop-mood-eosm-slim-gui](https://github.com/Amit199167/Crop-mood-eosm-slim-gui) | [Amit Kattal](https://github.com/Amit199167) |
+| Crop Mood FilmGate (Beta) | [shaneintherain/Crop-mood-eosm-filmgate](https://github.com/shaneintherain/Crop-mood-eosm-filmgate) | [shaneintherain](https://github.com/shaneintherain), forked from Amit's build |
 | Crop Mood + Danne Tweaks | [Magic Lantern forum thread](https://www.magiclantern.fm/forum/index.php?topic=27084.25) | Danne |
 | Crop Mood | [Magic Lantern forum thread](https://www.magiclantern.fm/forum/index.php?topic=26851.0) | Bilal |
 
-Massive thanks to Bilal, Danne, and Amit for building these out for the EOS M, and to the [Magic Lantern](https://www.magiclantern.fm/) team for the firmware itself - none of this could exist without their work.
+Massive thanks to Bilal, Danne, Amit, and shaneintherain for building these out for the EOS M, and to the [Magic Lantern](https://www.magiclantern.fm/) team for the firmware itself - none of this could exist without their work.
 
 ### License
 
@@ -51,4 +52,4 @@ Magic Lantern is unofficial, free/open-source software - not made or approved by
 
 ---
 
-This repository only hosts release downloads. The installer is proprietary - see [LICENSE](LICENSE). Copyright (c) 2026 Filmatura.
+This repository only hosts release downloads (and the installer's remotely editable content in [`content/`](content/)). The installer is proprietary - see [LICENSE](LICENSE). Copyright (c) 2026 Filmatura.
