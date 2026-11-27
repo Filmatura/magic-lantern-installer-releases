@@ -16,3 +16,4 @@ Rules the app enforces:
 - Store links are paths like `/products/x`.
 - `moreInfoUrl` must be https on github.com, magiclantern.fm or filmatura.com.
 - Badge `tone` is `sale` (orange) or `info` (black).
+- Each build card shows a tag: "Recommended" for the recommended build, otherwise its `tagLabel`. A build with no `tagLabel` shows "Not actively maintained", so set one, e.g. "Actively maintained" or "Experimental".
